@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	// Slice
+	var nomes = []string{"Igor", "Silva", "Dusk", "Robert"}
+	fmt.Println(nomes)
+	
+	fmt.Println(nomes, len(nomes), cap(nomes))
+	rangeOne := nomes[1:3]
+	fmt.Println(rangeOne)
+	nomes = append(nomes, "Ronald, Landhon")
+	fmt.Println(nomes, len(nomes), cap(nomes))
+
+	
+
+}
